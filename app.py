@@ -21,12 +21,13 @@ G.add_edge(2, 3, weight=traffic_23)
 G.add_edge(3, 0, weight=4)
 G.add_edge(0, 2, weight=6)
 
-# Draw graph visualization
+# Draw graph visualization safely
 st.subheader("Microservice Communication Graph")
 fig, ax = plt.subplots(figsize=(6, 4))
-pos = nx.spring_layout(G)
+pos = nx.spring_layout(G, seed=42) # Added a fixed seed for stable layout
 nx.draw(G, pos, with_labels=True, node_color='skyblue', node_size=800, font_weight='bold', ax=ax)
 st.pyplot(fig)
+plt.close(fig) # <-- This frees the memory and stops the crash!
 
 # Quantum Compilation Comparison
 st.subheader("A/B Processor Architecture Benchmarking")
