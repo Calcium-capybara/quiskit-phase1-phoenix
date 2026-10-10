@@ -7,7 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1oHka0-rzG8zDQdduM2eatfNSdUuSycQV
 """
 
-!pip install streamlit networkx matplotlib qiskit qiskit-aer pyngrok -q
+
 print("Tools installed successfully!")
 
 # Commented out IPython magic to ensure Python compatibility.
