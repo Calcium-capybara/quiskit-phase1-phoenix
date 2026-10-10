@@ -70,7 +70,7 @@ print("Tools installed successfully!")
 #     st.metric(label="Circuit Depth", value=comp_B.depth())
 #     st.metric(label="SWAP Count", value=comp_B.count_ops().get('swap', 0))
 
-!streamlit run app.py & npx localtunnel --port 8501
+
 
 # 1. Run Streamlit in the background and output the local URL
 import subprocess
