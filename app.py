@@ -86,4 +86,4 @@ time.sleep(3)
 
 # 2. Use localtunnel with the automatic yes flag (-y) to bypass the prompt completely
 print("🚀 Launching public tunnel...")
-!npx localtunnel --port 8501 -yb
+
