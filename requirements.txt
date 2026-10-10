@@ -1,5 +1,4 @@
-qiskit
-qiskit-aer
-matplotlib
-networkx
 streamlit
+networkx
+matplotlib
+qiskit
