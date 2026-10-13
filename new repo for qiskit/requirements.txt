@@ -1,0 +1,10 @@
+# Requirements for Qiskit Fall Fest 2026 - Phase 1: PS-O1
+#
+# Pinned versions matching development and test environment:
+qiskit>=1.2.0,<2.6.0
+qiskit-aer>=0.15.0
+numpy>=1.26.0,<3.0.0
+scipy>=1.12.0,<2.0.0
+networkx>=3.0,<4.0
+pytest>=8.0.0
+matplotlib>=3.8.0

@@ -1,0 +1,24 @@
+LINN — PROCESSOR CONFIGURATION HANDOFF
+
+Files included:
+- processors/processor_A.json
+- processors/processor_B.json
+- src/processors.py
+
+Verified topology:
+- Processor A: 5 qubits, 8 directed entries, 4 unique physical edges.
+- Processor B: 9 qubits, 24 directed entries, 12 unique physical edges.
+
+Validation performed:
+- Qubit indices are within range.
+- No self-loops or duplicate directed edges.
+- Every directed edge has a reverse entry.
+- Both processor configurations passed validation.
+
+Limitations:
+- Full Qiskit integration has not been tested.
+- Noise parameters, basis gates, and port assignments remain unspecified
+  because authoritative values have not been established.
+- The integration owner should confirm the expected JSON schema.
+
+Prepared by: Linn

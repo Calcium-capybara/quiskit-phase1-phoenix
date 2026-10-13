@@ -1,0 +1,74 @@
+{
+  "benchmark_id": "ER6_OFFICIAL",
+  "title": "Official 6-node Erd\u00f6s-R\u00e9nyi Weighted Max-Cut Benchmark (seed=42)",
+  "status": "Generated programmatically via nx.erdos_renyi_graph(n=6, p=0.5, seed=42) with integer weights 1-5 (seed=42)",
+  "num_vertices": 6,
+  "vertices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "edges": [
+    {
+      "u": 0,
+      "v": 2,
+      "weight": 1
+    },
+    {
+      "u": 0,
+      "v": 3,
+      "weight": 1
+    },
+    {
+      "u": 0,
+      "v": 4,
+      "weight": 3
+    },
+    {
+      "u": 1,
+      "v": 4,
+      "weight": 2
+    },
+    {
+      "u": 1,
+      "v": 5,
+      "weight": 2
+    },
+    {
+      "u": 2,
+      "v": 3,
+      "weight": 2
+    },
+    {
+      "u": 2,
+      "v": 4,
+      "weight": 1
+    },
+    {
+      "u": 3,
+      "v": 4,
+      "weight": 5
+    },
+    {
+      "u": 3,
+      "v": 5,
+      "weight": 1
+    }
+  ],
+  "weight_range": [
+    1,
+    5
+  ],
+  "known_exact_optimum": {
+    "cut_weight": 16,
+    "total_edge_weight": 18,
+    "optimal_bitstrings_vertex_order": [
+      "001011",
+      "110100"
+    ],
+    "method": "Exhaustive classical enumeration across all 64 bitstrings"
+  }
+}

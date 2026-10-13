@@ -1,0 +1,74 @@
+{
+  "er6_results": [
+    {
+      "Benchmark": "ER6_OFFICIAL",
+      "QAOA Depth (p)": 1,
+      "Architecture": "Processor A (5q Tree)",
+      "Status": "CAPACITY_EXCEEDED",
+      "Logical Depth": 10,
+      "Logical CX": 18,
+      "Compiled Depth": "N/A",
+      "Compiled CX": "N/A",
+      "Routing Overhead CX": "N/A",
+      "Exact Optimum": 16.0,
+      "Best Cut": "N/A",
+      "Sampled Approx Ratio": "N/A"
+    },
+    {
+      "Benchmark": "ER6_OFFICIAL",
+      "QAOA Depth (p)": 1,
+      "Architecture": "Processor B (9q Heavy-Hex)",
+      "Status": "SUCCESS",
+      "Logical Depth": 10,
+      "Logical CX": 18,
+      "Compiled Depth": 38,
+      "Compiled CX": 21,
+      "Routing Overhead CX": 3.0,
+      "Exact Optimum": 16.0,
+      "Best Cut": 16.0,
+      "Sampled Approx Ratio": 0.691
+    },
+    {
+      "Benchmark": "ER6_OFFICIAL",
+      "QAOA Depth (p)": 2,
+      "Architecture": "Processor B (9q Heavy-Hex)",
+      "Status": "SUCCESS",
+      "Logical Depth": 17,
+      "Logical CX": 36,
+      "Compiled Depth": 69,
+      "Compiled CX": 42,
+      "Routing Overhead CX": 6.0,
+      "Exact Optimum": 16.0,
+      "Best Cut": 16.0,
+      "Sampled Approx Ratio": 0.77
+    },
+    {
+      "Benchmark": "ER6_OFFICIAL",
+      "QAOA Depth (p)": 1,
+      "Architecture": "Processor D (9q Custom Core)",
+      "Status": "SUCCESS",
+      "Logical Depth": 10,
+      "Logical CX": 18,
+      "Compiled Depth": 35,
+      "Compiled CX": 21,
+      "Routing Overhead CX": 3.0,
+      "Exact Optimum": 16.0,
+      "Best Cut": 16.0,
+      "Sampled Approx Ratio": 0.691
+    },
+    {
+      "Benchmark": "ER6_OFFICIAL",
+      "QAOA Depth (p)": 2,
+      "Architecture": "Processor D (9q Custom Core)",
+      "Status": "SUCCESS",
+      "Logical Depth": 17,
+      "Logical CX": 36,
+      "Compiled Depth": 66,
+      "Compiled CX": 45,
+      "Routing Overhead CX": 9.0,
+      "Exact Optimum": 16.0,
+      "Best Cut": 16.0,
+      "Sampled Approx Ratio": 0.77
+    }
+  ]
+}

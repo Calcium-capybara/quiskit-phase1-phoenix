@@ -1,0 +1,28 @@
+{
+  "name": "processor_D",
+  "num_qubits": 9,
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "coupling_map": [
+    [0, 1], [1, 0],
+    [1, 2], [2, 1],
+    [2, 3], [3, 2],
+    [3, 4], [4, 3],
+    [4, 5], [5, 4],
+    [5, 0], [0, 5],
+    [0, 6], [6, 0],
+    [2, 7], [7, 2],
+    [4, 8], [8, 4],
+    [6, 7], [7, 6],
+    [7, 8], [8, 7],
+    [8, 6], [6, 8],
+    [1, 7], [7, 1],
+    [3, 8], [8, 3],
+    [5, 6], [6, 5]
+  ],
+  "synthetic_noise": {
+    "1q_depolarizing": 0.001,
+    "2q_cx_depolarizing": 0.005,
+    "readout_error": 0.01
+  },
+  "description": "Processor D: 9-qubit ring-with-chord triangular-core architecture designed to minimize QAOA SWAP bottlenecks on dense graphs (15 unique edges, max degree 4, diameter 2)"
+}

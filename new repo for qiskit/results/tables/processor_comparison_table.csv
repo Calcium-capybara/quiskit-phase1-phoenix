@@ -1,0 +1,5 @@
+Benchmark,Processor,Physical Qubits,Logical Qubits,Status,Compiled Depth,CX Count,SWAP Overhead,Notes
+"G6 (6 vertices, 9 edges)",Processor A,5,6,CAPACITY_EXCEEDED,N/A,N/A,N/A,Cannot fit 6-qubit circuit onto 5-qubit hardware
+"G6 (6 vertices, 9 edges)",Processor B,9,6,FEASIBLE,Evaluation ready,Evaluation ready,Evaluation ready,Accommodates all 6 logical qubits on 9 physical qubits
+"Synthetic-4 (4 vertices, 5 edges)",Processor A,5,4,FEASIBLE,Evaluation ready,Evaluation ready,Evaluation ready,Sub-graph comparison test
+"Synthetic-4 (4 vertices, 5 edges)",Processor B,9,4,FEASIBLE,Evaluation ready,Evaluation ready,Evaluation ready,Sub-graph comparison test

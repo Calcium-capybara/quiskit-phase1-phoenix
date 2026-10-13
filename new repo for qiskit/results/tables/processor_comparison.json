@@ -1,0 +1,48 @@
+{
+  "comparison_summary": [
+    {
+      "Benchmark": "G6 (6 vertices, 9 edges)",
+      "Processor": "Processor A",
+      "Physical Qubits": 5,
+      "Logical Qubits": 6,
+      "Status": "CAPACITY_EXCEEDED",
+      "Compiled Depth": "N/A",
+      "CX Count": "N/A",
+      "SWAP Overhead": "N/A",
+      "Notes": "Cannot fit 6-qubit circuit onto 5-qubit hardware"
+    },
+    {
+      "Benchmark": "G6 (6 vertices, 9 edges)",
+      "Processor": "Processor B",
+      "Physical Qubits": 9,
+      "Logical Qubits": 6,
+      "Status": "FEASIBLE",
+      "Compiled Depth": "Evaluation ready",
+      "CX Count": "Evaluation ready",
+      "SWAP Overhead": "Evaluation ready",
+      "Notes": "Accommodates all 6 logical qubits on 9 physical qubits"
+    },
+    {
+      "Benchmark": "Synthetic-4 (4 vertices, 5 edges)",
+      "Processor": "Processor A",
+      "Physical Qubits": 5,
+      "Logical Qubits": 4,
+      "Status": "FEASIBLE",
+      "Compiled Depth": "Evaluation ready",
+      "CX Count": "Evaluation ready",
+      "SWAP Overhead": "Evaluation ready",
+      "Notes": "Sub-graph comparison test"
+    },
+    {
+      "Benchmark": "Synthetic-4 (4 vertices, 5 edges)",
+      "Processor": "Processor B",
+      "Physical Qubits": 9,
+      "Logical Qubits": 4,
+      "Status": "FEASIBLE",
+      "Compiled Depth": "Evaluation ready",
+      "CX Count": "Evaluation ready",
+      "SWAP Overhead": "Evaluation ready",
+      "Notes": "Sub-graph comparison test"
+    }
+  ]
+}

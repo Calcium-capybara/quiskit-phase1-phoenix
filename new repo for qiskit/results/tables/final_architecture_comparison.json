@@ -1,0 +1,58 @@
+{
+  "benchmark_results": [
+    {
+      "Architecture": "Processor A (5-qubit Branching Tree)",
+      "Physical Qubits": 5,
+      "Logical Qubits": 6,
+      "Status": "CAPACITY_EXCEEDED",
+      "Logical Depth": 10,
+      "Logical 2Q Gates": 9,
+      "Compiled Depth": "N/A",
+      "Compiled CX": "N/A",
+      "Routing Overhead CX": "N/A",
+      "Estimated SWAPs": "N/A",
+      "Routing CX Ratio": "N/A",
+      "Connectivity Mismatch Score (M)": "N/A",
+      "Best Observed Cut": "N/A",
+      "Exact Optimum": 24.0,
+      "Approximation Ratio": "N/A",
+      "Notes": "Physical capacity limit: 6 logical qubits cannot map to 5 physical qubits"
+    },
+    {
+      "Architecture": "Processor B (9-qubit Heavy-Hex Baseline)",
+      "Physical Qubits": 9,
+      "Logical Qubits": 6,
+      "Status": "COMPILED_SUCCESS",
+      "Logical Depth": 11,
+      "Logical 2Q Gates": 9,
+      "Compiled Depth": 36,
+      "Compiled CX": 21,
+      "Routing Overhead CX": 3.0,
+      "Estimated SWAPs": 1.0,
+      "Routing CX Ratio": 1.167,
+      "Connectivity Mismatch Score (M)": 0.4483,
+      "Best Observed Cut": 24.0,
+      "Exact Optimum": 24.0,
+      "Approximation Ratio": 0.741,
+      "Notes": "Official baseline; 1 routing SWAP (3 extra CX) inserted for non-local couplings"
+    },
+    {
+      "Architecture": "Processor D (9-qubit Ring-Chord Custom)",
+      "Physical Qubits": 9,
+      "Logical Qubits": 6,
+      "Status": "COMPILED_SUCCESS",
+      "Logical Depth": 11,
+      "Logical 2Q Gates": 9,
+      "Compiled Depth": 41,
+      "Compiled CX": 21,
+      "Routing Overhead CX": 3.0,
+      "Estimated SWAPs": 1.0,
+      "Routing CX Ratio": 1.167,
+      "Connectivity Mismatch Score (M)": 0.1379,
+      "Best Observed Cut": 24.0,
+      "Exact Optimum": 24.0,
+      "Approximation Ratio": 0.741,
+      "Notes": "Phase 1 custom architecture; M score reduced by 69% (0.1379 vs 0.4483)"
+    }
+  ]
+}

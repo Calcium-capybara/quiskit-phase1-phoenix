@@ -1,0 +1,15 @@
+# Processor A - 5-Qubit Branching Tree
+
+- Nodes: 5 (0 to 4)
+- Unique Undirected Edges (4):
+  - (0, 1)
+  - (0, 2)
+  - (0, 3)
+  - (3, 4)
+
+- Adjacency List:
+  - Node 0: [1, 2, 3] (degree 3)
+  - Node 1: [0] (degree 1)
+  - Node 2: [0] (degree 1)
+  - Node 3: [0, 4] (degree 2)
+  - Node 4: [3] (degree 1)

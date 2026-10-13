@@ -1,0 +1,17 @@
+{
+  "name": "processor_A",
+  "num_qubits": 5,
+  "basis_gates": ["rz", "sx", "x", "cx"],
+  "coupling_map": [
+    [0, 1], [1, 0],
+    [0, 2], [2, 0],
+    [0, 3], [3, 0],
+    [3, 4], [4, 3]
+  ],
+  "synthetic_noise": {
+    "1q_depolarizing": 0.001,
+    "2q_cx_depolarizing": 0.005,
+    "readout_error": 0.01
+  },
+  "description": "5-qubit T-shaped branching tree [(0,1),(0,2),(0,3),(3,4)] matching the official stage diagram (hub node 0 connected to 1, 2, 3; node 3 connected to 4)"
+}

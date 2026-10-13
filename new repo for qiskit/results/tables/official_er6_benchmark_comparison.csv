@@ -1,0 +1,6 @@
+Benchmark,QAOA Depth (p),Architecture,Status,Logical Depth,Logical CX,Compiled Depth,Compiled CX,Routing Overhead CX,Exact Optimum,Best Cut,Sampled Approx Ratio
+ER6_OFFICIAL,1,Processor A (5q Tree),CAPACITY_EXCEEDED,10,18,N/A,N/A,N/A,16.0,N/A,N/A
+ER6_OFFICIAL,1,Processor B (9q Heavy-Hex),SUCCESS,10,18,38,21,3.0,16.0,16.0,0.691
+ER6_OFFICIAL,2,Processor B (9q Heavy-Hex),SUCCESS,17,36,69,42,6.0,16.0,16.0,0.77
+ER6_OFFICIAL,1,Processor D (9q Custom Core),SUCCESS,10,18,35,21,3.0,16.0,16.0,0.691
+ER6_OFFICIAL,2,Processor D (9q Custom Core),SUCCESS,17,36,66,45,9.0,16.0,16.0,0.77
